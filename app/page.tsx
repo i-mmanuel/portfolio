@@ -27,11 +27,16 @@ export default function Page() {
 							</Link>
 						</nav>
 					</div>
-					<Button variant="outline" className="ml-auto" asChild>
-						<a href="/emmanuel_adatsi_resume.pdf" download>
-							Resume
-						</a>
-					</Button>
+					<Link
+						href="/emmanuel-adatsi-resume.pdf"
+						download="Emmanuel_Adatsi_Resume.pdf"
+						className="ml-auto"
+						aria-label="Download resume"
+					>
+						<Button variant="outline" className="ml-auto">
+							My Resume
+						</Button>
+					</Link>
 				</div>
 			</header>
 
