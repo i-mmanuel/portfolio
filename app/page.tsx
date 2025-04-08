@@ -76,27 +76,28 @@ export default function Page() {
 						<h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-12 text-center">Projects</h2>
 						<div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
 							<ProjectCard
-								title="Tip Calculator"
-								description="A small application that allows users to be able to keep track and calculate tips"
-								image="https://res.cloudinary.com/dmpr6jett/image/upload/f_auto,q_auto/v1/Stock/n4myprqz9wdknyiwyufu"
-								link="https://github.com"
-								website="https://react-tip-calculator-virid.vercel.app/"
-								tags={["React", "LocalStorage API"]}
-							/>
-							<ProjectCard
 								title="Equipment Management"
 								description="A real-time equipment management application."
 								image="https://res.cloudinary.com/dmpr6jett/image/upload/f_auto,q_auto/v1/Stock/cbik8cs189gnp64htqoe"
 								link="https://github.com"
 								website="i-mmanuel-v-portfolio-dun-rho.vercel.app"
-								tags={["React", "TailwindCSS", "SQL"]}
+								tags={["React", "TailwindCSS", "Node.js", "Express", "MongoDB"]}
 							/>
 							<ProjectCard
-								title="Takeaway Website"
+								title="Tip Calculator"
+								description="A small application that allows users to be able to keep track and calculate tips"
+								image="https://res.cloudinary.com/dmpr6jett/image/upload/f_auto,q_auto/v1/Stock/n4myprqz9wdknyiwyufu"
+								link="https://github.com"
+								website="https://react-tip-calculator-virid.vercel.app/"
+								tags={["React", "MySQL", "TailwindCSS", "Python"]}
+							/>
+							<ProjectCard
+								title="Super Patty"
 								description="A simple takeaway website with a menu and order form."
 								image="https://res.cloudinary.com/dmpr6jett/image/upload/v1744039657/Stock/dccvbe88uuarjo6xo4kt.png"
+								website="https://superp.vercel.app"
 								link="https://github.com"
-								tags={["OpenAI", "Next.js", "TailwindCSS"]}
+								tags={["React", "TailwindCSS"]}
 							/>
 						</div>
 					</div>
