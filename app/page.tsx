@@ -80,7 +80,7 @@ export default function Page() {
 								description="A real-time equipment management application."
 								image="https://res.cloudinary.com/dmpr6jett/image/upload/f_auto,q_auto/v1/Stock/cbik8cs189gnp64htqoe"
 								link="https://github.com"
-								website="i-mmanuel-v-portfolio-dun-rho.vercel.app"
+								website="https://equipment-tracker-9hlb.vercel.app"
 								tags={["React", "TailwindCSS", "Node.js", "Express", "MongoDB"]}
 							/>
 							<ProjectCard
