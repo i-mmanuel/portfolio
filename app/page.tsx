@@ -9,8 +9,8 @@ import { ThemeToggle } from "@/components/theme-toggle";
 export default function Page() {
 	return (
 		<div className="min-h-screen bg-background">
-			<header className="sticky flex justify-center top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-				<div className="container flex h-14 items-center">
+			<header className="sticky flex justify-center md:px-6 top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+				<div className="container flex h-14 px-5 items-center">
 					<div className="mr-4 md:flex">
 						<Link className="mr-6 flex items-center space-x-2" href="/">
 							<span className="font-bold sm:inline-block">¡mmanue!•dev</span>
@@ -48,35 +48,32 @@ export default function Page() {
 								<h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
 									Emmanuel Adatsi
 								</h1>
-								<p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
+								<div className="space-x-4">
+									<Link href="https://github.com/i-mmanuel" target="_blank">
+										<Button variant="outline" size="icon">
+											<Github className="h-4 w-4" />
+											<span className="sr-only">GitHub</span>
+										</Button>
+									</Link>
+									<Link href="mailto:emmanuel.jnr@outlook.com">
+										<Button variant="outline" size="icon">
+											<Mail className="h-4 w-4" />
+											<span className="sr-only">Email</span>
+										</Button>
+									</Link>
+								</div>
+								<p className="mx-auto max-w-[1200px] text-gray-500 md:text-xl dark:text-gray-400">
 									Welcome to my digital workspace, a showcase of my journey as a developer. This portfolio represents
 									not just my technical skills, but my approach to problem-solving and design thinking. This site
 									features a curated collection of my projects, demonstrating my proficiency in front-end and backend
 									development and my ability to create responsive, intuitive user experiences. Each project includes
 									detailed descriptions, the technologies used, and links to both live demos and source code. Beyond
 									showcasing my work, this portfolio highlights my development process—from initial concept to final
-									implementation. Through clean code architecture and modern React practices, I've created a seamless
-									browsing experience that reflects my commitment to quality and attention to detail. The site itself
-									serves as a testament to my capabilities, utilizing React's component-based structure for
-									maintainable, scalable design. Whether you're a potential employer, collaborator, or fellow developer,
-									I invite you to explore my work and reach out through the contact section to discuss potential
-									opportunities or just connect over our shared passion for development. Thank you for visiting, and I
-									look forward to the possibility of working together on future projects.
+									implementation. Whether you're a potential employer, collaborator, or fellow developer, I invite you
+									to explore my work and reach out through the contact section to discuss potential opportunities or
+									just connect over our shared passion for development. Thank you for visiting, and I look forward to
+									the possibility of working together on future projects.
 								</p>
-							</div>
-							<div className="space-x-4">
-								<Link href="https://github.com/i-mmanuel" target="_blank">
-									<Button variant="outline" size="icon">
-										<Github className="h-4 w-4" />
-										<span className="sr-only">GitHub</span>
-									</Button>
-								</Link>
-								<Link href="mailto:emmanuel.jnr@outlook.com">
-									<Button variant="outline" size="icon">
-										<Mail className="h-4 w-4" />
-										<span className="sr-only">Email</span>
-									</Button>
-								</Link>
 							</div>
 						</div>
 					</div>
